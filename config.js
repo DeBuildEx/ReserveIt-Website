@@ -1,12 +1,12 @@
 module.exports = {
-  siteTitle: 'ReserveIt', // <title>
+  siteTitle: 'ReserveIt | رزرو ایت', // <title>
   manifestName: 'SolidState',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
+  manifestIcon: 'src/assets/images/website-icon.png',
   pathPrefix: `/ReserveIt-Website`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'رزرو ایت',
   subHeading: 'ما کمکت میکنیم دیگه رزرو غذاتو یادت نره',

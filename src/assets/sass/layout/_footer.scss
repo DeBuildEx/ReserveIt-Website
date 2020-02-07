@@ -12,6 +12,7 @@
     @include vendor('display', 'flex');
     @include vendor('flex-direction', 'column');
     @include vendor('flex-wrap', 'wrap');
+
     justify-content: center;
     align-items: center;
     * {
@@ -145,4 +146,5 @@
       @include padding(2.5em, 2.5em);
     }
   }
+  padding-bottom: 4em !important;
 }

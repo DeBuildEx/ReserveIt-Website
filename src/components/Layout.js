@@ -52,7 +52,7 @@ class Layout extends Component {
             >
               <html lang="en" />
               <link
-                href="https://cdn.rawgit.com/rastikerdar/vazir-font/v[16.1.0]/dist/font-face.css"
+                href="https://cdn.rawgit.com/rastikerdar/vazir-font/v16.1.0/dist/font-face.css"
                 rel="stylesheet"
                 type="text/css"
               />
