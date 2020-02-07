@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'ReserveIt | رزرو ایت', // <title>
-  manifestName: 'SolidState',
-  manifestShortName: 'Landing', // max 12 characters
+  manifestName: 'ReserveIt',
+  manifestShortName: 'ReserveIt', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
