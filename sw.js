@@ -29,17 +29,17 @@ self.__precacheManifest = [
     "url": "webpack-runtime-339e6726fa94ff3c921e.js"
   },
   {
-    "url": "commons-6b793f1a2c6c10090122.js"
+    "url": "commons-0822e4374bf6f5f75caa.js"
   },
   {
-    "url": "app-f3c1ea4ef52e21557e61.js"
+    "url": "app-5f0ea7890585b6fa98e3.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-ec1da19b77b8d79a622f.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "3eafca5adaf08da2cef344769e221cc7"
+    "revision": "bd53a2c31568e616a73887793d2bf081"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -71,7 +71,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/ReserveIt-Website/app-f3c1ea4ef52e21557e61.js`))) {
+  if (!resources || !(await caches.match(`/ReserveIt-Website/app-5f0ea7890585b6fa98e3.js`))) {
     return await fetch(event.request)
   }
 
